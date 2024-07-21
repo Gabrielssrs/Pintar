@@ -1,0 +1,354 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color: rgb(213, 212, 211);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.baner{
+    width: 1fr;
+    height: 200px;
+    background-image: url(/img/logo2.png);
+    background-position: center;
+}
+
+#contacto{
+    width: 50%;
+}
+
+
+/* navegacion */
+
+.menu{
+    background-color:  rgb(54, 76, 205);;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li{
+    margin: 0 15px;
+}
+
+.menu ul li a{
+    width: 260px;
+    height: 80px;
+    padding: 22px  ;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 28px;
+}
+
+
+nav ul li a:hover{
+    color: rgb(1, 1, 1);
+    background-color: rgb(116, 111, 111);
+}
+
+/* section de logo */
+.logo{
+    padding: 50px 50px; 
+}
+
+.logo h1{
+    background-color: rgb(73, 102, 189);
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.logo img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 10px rgb(165, 165, 140);
+
+}
+
+main{
+    padding: 2rem;
+    
+}
+/* primer contenido  */
+
+.trabajos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 70px;
+}
+
+.card-body{
+    border: solid 2px rgb(83, 29, 230);
+    box-shadow: 2px 4px 5px rgb(103, 104, 107);
+}
+
+.card img{
+    border: solid 5px rgb(62, 70, 128);
+}
+
+.card h5{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.card p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.trabajos{
+    margin-bottom: 2rem;
+}
+.servicio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.servicio img{
+    width: 70%;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 70px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    
+
+}
+
+
+.servicio h2{
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    padding: 15px;
+    margin-left: 90px;
+    border-radius: 10px;
+    background-color: rgb(73, 102, 189);
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+
+}
+
+.servicio p{
+    width: 70%;
+    text-align: justify;
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodillo{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 10px rgb(165, 165, 140);
+    justify-content: center;
+}
+/* segundo contenido de pintura */
+
+.pintura{
+    margin-bottom: 2rem;
+    background-color: rgb(207, 207, 207);
+    border-radius: 20px;
+    
+}
+
+.pintura-row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.pinturas-sub p{
+    width: 90%;
+    /* height: auto; */
+    margin: auto;
+    margin-top: 30px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pinturas-sub h2{
+
+    width: 45%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(73, 102, 189);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    font-family: "Kanit", sans-serif;
+}
+
+.pintura img{
+    width: 90%;
+    margin-left: 70px;
+    border-radius: 20px;    
+}
+
+.com{
+    width:500px;
+    margin: auto;
+    padding: 30px;
+    font-family: "Kanit", sans-serif;
+}
+
+.form{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+/* aqui emoieza el footer */
+
+footer{
+    background-color:  rgb(54, 76, 205);
+    width: 100%;
+    height: auto;
+    text-align: center; color: white;
+}
+
+.pie{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.empresa{
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+@media(max-width: 768px) {
+    .menu ul{
+        flex-direction: column ;
+        
+    }
+    .menu ul li{
+        
+        /* border-bottom: 2px solid black; */
+        border-top: 2px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul li a{
+        /* margin-left: 230px; */
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    .rodillo{
+        justify-content: center;
+    }
+
+    .logo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo img{
+        margin-bottom: 20px;
+        width: 95%;
+        margin-left: 20px;
+
+    }
+    .logo h1{
+        width: 75%;
+        margin-bottom: 20px;
+    }
+
+    .trabajos{
+        grid-template-columns: 1fr;
+    }
+    .pintura-row{
+        grid-template-columns: 1fr;
+    }
+    
+    .servicio-item{
+        display: block;
+    }
+
+    .pie{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .menu ul{
+        flex-direction: column;
+        
+    }
+    .menu ul li{
+        
+        /* border-bottom: 2px solid black; */
+        border-top: 2px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul li a{
+        /* margin-left: 230px; */
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    .servicio{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .pintura-row{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .trabajos{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

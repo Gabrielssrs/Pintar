@@ -1,0 +1,45 @@
+
+
+body{
+    background-color: rgb(86, 98, 206);
+}
+
+.form_registro{
+    width: 600px;
+    background-color: rgb(166, 166, 181);
+    color: white;
+    padding: 30px;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.titulo{
+    text-align: center;
+    font-size:22px;
+}
+
+.controles{
+    margin-top: 15px;
+}
+
+.grupo{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.boton{
+    border-radius: 10px;
+    padding: 4px;
+}
+
+a{
+    color: blue;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: blue;
+    color: white;
+    padding: 6px;
+}

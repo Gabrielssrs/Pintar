@@ -1,0 +1,371 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    background-color: rgb(213, 212, 211);
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+
+}
+
+
+header{
+    
+    width: 1fr;
+    height: 200px;
+    background-image: url(/img/logo2.png);
+    background-position: center;
+    
+}
+
+/* navegacion */
+
+.menu{
+    background-color:  rgb(54, 76, 205);;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li{
+    margin: 0 15px;
+}
+
+.menu ul li a{
+    width: 260px;
+    /* height: 25px; */
+    padding: 19px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 28px;
+}
+
+
+nav ul li a:hover{
+    color: rgb(1, 1, 1);
+    background-color: rgb(116, 111, 111);
+}
+
+main{
+    margin: 2rem;
+}
+
+/* Pagina servicio y logo principal */
+.servicio{
+    margin: 2rem;
+}
+
+.servicio h1{
+
+    width: 25%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 4%;
+    background-color: rgb(73, 102, 189);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 40px;
+}
+
+.servicio img{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+
+}
+
+/* trabajos interiores y exteriores */
+
+.trabajos-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 60px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+}
+
+.trabajos-grid img{
+    width: 70%;
+    margin-left: 14%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+
+}
+
+.trabajos-grid h2{
+    width: 35%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 4%;
+    text-align: center;
+    background-color: rgb(73, 102, 189);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    color: white;
+    font-family: "Kanit", sans-serif;
+
+}
+
+.trabajos-grid p{
+    width: 70%;
+    margin-left: 14%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-weight: bold;
+    border: 2px solid rgb(73, 102, 189);
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+/* Titulo edificio y logo de edificio */
+.edificio h2{
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(73, 102, 189);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+}
+
+.edificio img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+
+}
+
+/* Medidas de seguridad */
+.seguridad-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 30px;
+}
+
+.seguridad-grid img{
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+
+}
+
+.seguridad-grid p{
+    width: 80%;
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 4%;
+    text-align: center;
+    background-color: rgb(73, 102, 189);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+}
+
+/* tipos de superficie para pintar */
+/* .tipos-grid{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-top: 70px;
+}
+
+.tipos-grid img{
+    width: 70%;
+    margin-left: 13%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+
+}
+
+.tipos-grid h2{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;  
+    background-color: rgb(73, 102, 189);
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px rgb(103, 109, 133);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 24px;
+}
+
+.tipos-grid p{
+    width: 70%;
+    margin-left: 13%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+} */
+
+.tipos{
+ margin-top: 40px;
+ margin: 3rem;
+ box-shadow: 0px 5px 20px rgb(149, 150, 158);
+ border-radius: 10px;
+
+}
+
+#carouselExampleCaptions img{
+    height: 600px;
+    width: 40%;
+    border-radius: 30px;
+    border: solid 5px rgb(255, 255, 255);
+}
+
+#carouselExampleCaptions p{
+    font-size: 19px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+#carouselExampleCaptions h5{
+    font-size: 33px;
+    font-weight: bold;
+
+}
+
+
+.com{
+    width:30%;
+    margin: auto;
+    padding: 30px;
+    font-family: "Kanit", sans-serif;
+
+}
+
+.form{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+/* Aqui emppieza el footer */
+
+footer{
+   
+    background-color:  rgb(54, 76, 205);
+    width: 100%;
+    height: auto;
+    text-align: center; color: white;
+}
+
+.pie{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.pie p{
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.empresa{
+    font-weight: bold;
+
+}
+
+@media(max-width: 768px){
+    .menu ul{
+        flex-direction: column;
+        
+    }
+    .menu ul li{
+        
+        /* border-bottom: 2px solid black; */
+        border-top: 2px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul li a{
+        /* margin-left: 230px; */
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    .servicio h1{
+        width: 60%;
+    }
+
+    .trabajos-grid h2{
+        width: 60%;
+    }
+
+    .edificio h2{
+        width: 50%;
+    }
+    .trabajos-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .seguridad-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .tipos-grid{
+        grid-template-columns: 1fr;
+    }
+    .pie{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+    .menu ul{
+        flex-direction: column;
+        
+    }
+    .menu ul li{
+        
+        /* border-bottom: 2px solid black; */
+        border-top: 2px solid black;
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul li a{
+        /* margin-left: 230px; */
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    .trabajos-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .seguridad-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .tipos-grid{
+        grid-template-columns:  repeat(2,1fr);
+    }
+}

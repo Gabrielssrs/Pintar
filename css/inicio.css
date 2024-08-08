@@ -10,8 +10,13 @@ body{
 .baner{
     width: 100%;
     height: 220px;
-    background-image: url(/img/logo2.png);
+    /* background-image: url(/img/logo2.png); */
     background-position: center;
+}
+
+.baner img{
+    width: 100%;
+    height: 220px;
 }
 
 #contacto{
@@ -39,14 +44,14 @@ body{
 
 .menu ul li a{
     width: 260px;
-    height: 80px;
+    height: 60px;
     padding: 22px  ;
     color: white;
     text-decoration: none;
     display: block;
     text-align: center;
     font-family: "Kanit", sans-serif;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 
@@ -57,20 +62,21 @@ nav ul li a:hover{
 
 /* section de logo */
 .logo{
-    padding: 50px 50px; 
+    margin: 5px;
+    margin-bottom: 110px;
 }
 
 .logo h1{
     background-color: rgb(73, 102, 189);
-    width: 250px;
+    width: 320px;
     text-align: center;
     margin: auto;
     border-radius: 20px;
-    padding: 20px;
+    padding: 16px;
     box-shadow: 0px 5px 20px rgb(103, 109, 133);
     color: white;
     font-family: "Kanit", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 
 }
@@ -92,7 +98,7 @@ main{
 .trabajos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 70px;
+    margin-left: 140px;
 }
 
 .card-body{
@@ -255,11 +261,11 @@ footer{
     }
     .menu ul li{
         
-        /* border-bottom: 2px solid black; */
         border-top: 2px solid black;
         display: flex;
         justify-content: center;
     }
+
     .menu ul li a{
         /* margin-left: 230px; */
         text-align: center;
@@ -276,17 +282,18 @@ footer{
     }
     .logo img{
         margin-bottom: 20px;
-        width: 95%;
-        margin-left: 20px;
+        width: 100%;
+        /* margin-left: 10px; */
 
     }
     .logo h1{
-        width: 75%;
+        width: 220px;
         margin-bottom: 20px;
     }
 
     .trabajos{
         grid-template-columns: 1fr;
+        margin-left: 20px;
     }
     .pintura-row{
         grid-template-columns: 1fr;
@@ -330,6 +337,7 @@ footer{
 
     .trabajos{
         grid-template-columns: repeat(2,1fr);
+        margin-left: 10px;
     }
 }
   
